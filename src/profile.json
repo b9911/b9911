@@ -1,0 +1,13 @@
+{
+  "login": "b9911",
+  "name": "Boba",
+  "world": "Orbital Apiary",
+  "pagesUrl": "https://b9911.github.io/b9911/",
+  "refreshHours": 6,
+  "palette": {
+    "background": "#0c1425",
+    "ink": "#fff3d5",
+    "accent": "#ffc247",
+    "paper": "#192339"
+  }
+}

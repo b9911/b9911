@@ -1,0 +1,35 @@
+{
+  "login": "b9911",
+  "world": "Orbital Apiary",
+  "project": "csv-workbench",
+  "sourceHead": "ce56b65b0084c527d658a4231917f4fda608834c",
+  "runtime": "Python 3.11+",
+  "start": "python app.py",
+  "port": 8802,
+  "demoCheck": "python examples/profile-mission/check.py",
+  "existingTests": "passed",
+  "testCount": 20,
+  "demoResult": {
+    "facts": [
+      [
+        "2",
+        "data records"
+      ],
+      [
+        "1",
+        "duplicate removed"
+      ],
+      [
+        "0012",
+        "identifier preserved"
+      ]
+    ],
+    "recordIds": [
+      "0012",
+      "0042"
+    ]
+  },
+  "zipBytes": 141148,
+  "zipSha256": "D58B0B096E08FBF041FC1EF676A91971E9B411A600AC15BA42B8149CFC056C58",
+  "attribution": "Original project authors and LICENSE retained. Source download excludes .git; original history remains in the local source repository."
+}
