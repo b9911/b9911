@@ -66,7 +66,7 @@ The leading zeros belong to the identifier. This synthetic input is the kind of 
 
 ![Limited public account interactions](https://b9911.github.io/b9911/src/assets/live/interactions.svg)
 
-These charts record one successful daily statistics snapshot after the workflow is enabled. Four attempts per day provide retries. Snapshot commits are labelled automated and authored by github-actions[bot], not personal coding contributions. The observation time is printed on every chart. Commits are unique default-branch SHAs across all authors and owned public repositories, including forks. Language bytes describe repositories, not personal skill. Public interactions are a limited event feed (up to 300 events / 30 days), not visitor analytics. API and image caches may delay updates.
+These charts record one successful daily statistics snapshot after the workflow is enabled. Four attempts per day provide retries. Snapshot commits are labelled automated and authored by the profile owner using a verified GitHub noreply identity, with github-actions[bot] as committer. Owner contribution attribution follows GitHub rules; repository charts still include all authors. The observation time is printed on every chart. Commits are unique default-branch SHAs across all authors and owned public repositories, including forks. Language bytes describe repositories, not personal skill. Public interactions are a limited event feed (up to 300 events / 30 days), not visitor analytics. API and image caches may delay updates.
 
 [Live data and scope](https://b9911.github.io/b9911/src/assets/live/metrics.json) · [Portfolio website](https://b9911.github.io/b9911/) · [Refresh setup](src/SETUP.md)
 
