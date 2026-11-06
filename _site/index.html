@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Fictional Python developer persona · CSV pipelines, validation and practical data tools. Readable transformations, inspectable results."><title>Boba · Orbital Apiary</title><link rel="stylesheet" href="src/styles/profile.css"><script src="src/scripts/site.js" defer></script></head><body><main><nav class="site-nav"><span class="world-label">Orbital Apiary</span><a href="https://github.com/b9911">@b9911 ↗</a></nav><p class="freshness" data-freshness>Saved preview · live refresh starts after Pages setup.</p><article><p><img src="src/assets/universe.png" alt="Orbital Apiary — honeybee astronaut"></p>
+<h1 id="boba--python-developer--data-tools">Boba · Python Developer · Data Tools</h1>
+<blockquote>
+<p><strong>Orbital Apiary</strong> · A flight plan for messy data.</p>
+</blockquote>
+<p><strong>From a messy export to a result you can explain.</strong></p>
+<p><a href="src/assets/launch.zip">Download the runnable mission</a> · <a href="src/launch.html">Launch guide</a> · <a href="#working-stack">Working stack</a> · <a href="#selected-work">Selected work</a></p>
+<h2 id="mission-control">Mission control</h2>
+<p><img src="src/assets/mission.png" alt="Orbital Apiary — checked synthetic demonstration"></p>
+<p><strong>First launch: csv-workbench.</strong> A complete source snapshot, synthetic example and assertion script are included. The mission check and <strong>20 existing tests</strong> passed. <a href="src/launch.html">Try the mission</a> · <a href="src/assets/launch.json">Snapshot and checked result</a>.</p>
+<p>I&#39;m Boba. My corner of software is the space between receiving a file and trusting what comes out of it: parsing, cleanup, validation and the small interface that makes a transformation understandable.</p>
+<p>A useful data tool should answer three questions quickly: what came in, what changed, and what needs another look. That is the thread connecting this collection.</p>
+<h2 id="what-i-focus-on">What I focus on</h2>
+<ul>
+<li><strong>Data preparation.</strong> CSV structure, category mappings and the path from raw rows to an export.</li>
+<li><strong>Validation that explains itself.</strong> Identifiers, duplicate records and mismatched quantities deserve visible context.</li>
+<li><strong>Small interfaces for real files.</strong> A focused screen, a review step and an output that can be inspected again.</li>
+</ul>
+<h2 id="working-stack">Working stack</h2>
+<p><img src="src/assets/stack.png" alt="Current tooling and explicitly planned lab directions"></p>
+<p>The upper panel shows technologies used by the selected tools. The lower row is the next lab track.</p>
+<h2 id="how-i-think-about-the-work">How I think about the work</h2>
+<p><img src="src/assets/workflow.png" alt="The anatomy of a trustworthy import"></p>
+<h2 id="selected-work">Selected work</h2>
+<p>Three existing local tools form this curated collection. Their public project repositories are being prepared.</p>
+<p><img src="src/assets/projects.png" alt="Three selected projects and their purpose"></p>
+<table>
+<thead>
+<tr>
+<th>Project / stack</th>
+<th>Why it belongs here</th>
+<th>Input → output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>CSV Workbench</strong><br>Python · JavaScript</td>
+<td>Understand the file before the next import. Inspect and clean CSV records, review a table and export the result with a report.</td>
+<td><strong>In:</strong> CSV text or a UTF-8 file<br><strong>Out:</strong> Cleaned CSV + JSON report</td>
+</tr>
+<tr>
+<td><strong>Expense Bridge</strong><br>JavaScript · Node.js</td>
+<td>Give inconsistent expense categories a common shape. Apply a category mapping to CSV expenses and inspect the normalized output.</td>
+<td><strong>In:</strong> Expense CSV + category map<br><strong>Out:</strong> Normalized expense records</td>
+</tr>
+<tr>
+<td><strong>Stock Lens</strong><br>JavaScript · Node.js</td>
+<td>Find the gap between the count and the inventory file. Compare recorded and counted quantities from two CSV inputs.</td>
+<td><strong>In:</strong> Recorded + counted stock<br><strong>Out:</strong> A stock comparison</td>
+</tr>
+</tbody></table>
+<h3 id="a-small-input-with-a-big-consequence">A small input with a big consequence</h3>
+<pre><code class="language-csv">sku,quantity
+0012,7
+0013,0
+</code></pre>
+<p>The leading zeros belong to the identifier. This synthetic input is the kind of case the next validation pass should make easy to inspect.</p>
+<h2 id="code-and-activity">Code and activity</h2>
+<p><img data-live src="src/assets/live/overview.svg" alt="Public repository totals"></p>
+<p><img data-live src="src/assets/live/activity.svg" alt="Public default-branch history, all authors"></p>
+<p><img data-live src="src/assets/live/languages.svg" alt="Public repository language bytes"></p>
+<p><img data-live src="src/assets/live/interactions.svg" alt="Limited public account interactions"></p>
+<p>These charts refresh from real GitHub observations on every successful workflow run, scheduled every six hours. At most one daily snapshot is committed; later runs still rebuild and publish the charts. Snapshot commits are labelled automated and authored by the profile owner using a verified GitHub noreply identity, with github-actions[bot] as committer. Owner contribution attribution follows GitHub rules; repository charts still include all authors. The observation time is printed on every chart. Commits are unique default-branch SHAs across all authors and owned public repositories, including forks. Language bytes describe repositories, not personal skill. Public interactions are a limited event feed (up to 300 events / 30 days), not visitor analytics. API and image caches may delay updates.</p>
+<p><a href="src/assets/live/metrics.json">Live data and scope</a> · <a href="https://b9911.github.io/b9911/">Portfolio website</a> · <a href="https://github.com/b9911/b9911/blob/HEAD/src/SETUP.md">Refresh setup</a></p>
+<h2 id="next-lab">Next lab</h2>
+<ol>
+<li><strong>Explain the row.</strong> Point diagnostics back to the original row and field.</li>
+<li><strong>Reuse the mapping.</strong> Save a reviewed category mapping with an example input.</li>
+<li><strong>Make the next import easier.</strong> Explore a typed validation boundary and a small import history.</li>
+</ol>
+<h2 id="start-a-conversation">Start a conversation</h2>
+<p>Bring an awkward CSV example, a surprising identifier or an import rule that deserves a clearer explanation. Synthetic samples work well.</p>
+<p><a href="https://github.com/b9911/b9911/issues">Open the profile repository&#39;s issues</a> · <a href="https://github.com/b9911?tab=repositories">Browse the repositories</a></p>
+<blockquote>
+<p>🔎 One more CSV edge case.</p>
+</blockquote>
+<hr>
+<p><sub>Fictional developer persona · AI-illustrated avatar. Curated tools retain original authors, licenses and commit history. Technology icons: Simple Icons.</sub></p>
+<p><a href="src/assets/NOTICE.md">Artwork and data notes</a></p>
+</article><footer class="site-footer"><a href="https://github.com/b9911/b9911">Source repository</a> · Charts refresh every six hours; at most one snapshot commit per UTC day.</footer></main></body></html>
