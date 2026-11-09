@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "login": "b9911",
-  "observedAt": "2026-11-06T15:44:35.931Z",
+  "observedAt": "2026-11-09T13:54:44.300Z",
   "refreshHours": 6,
   "window": {
-    "since": "2026-10-08T00:00:00.000Z",
-    "until": "2026-11-06T15:44:35.931Z",
+    "since": "2026-10-11T00:00:00.000Z",
+    "until": "2026-11-09T13:54:44.300Z",
     "timezone": "UTC"
   },
   "scope": "Owned public repositories including forks; unique default-branch commits by all authors. Language bytes describe repositories, not skill or authorship. Public events are a limited activity feed, not visitor analytics.",
@@ -14,7 +14,7 @@
     "forks": 0,
     "stars": 0,
     "openIssuesAndPullRequests": 0,
-    "uniqueCommits30d": 16
+    "uniqueCommits30d": 17
   },
   "repositories": [
     {
@@ -31,26 +31,14 @@
     }
   ],
   "languages": {
-    "JavaScript": 24092,
-    "HTML": 13507,
+    "JavaScript": 30457,
+    "HTML": 22614,
     "Python": 23324,
     "Batchfile": 822,
     "Shell": 400,
     "Makefile": 109
   },
   "daily": [
-    {
-      "day": "2026-10-08",
-      "commits": 0
-    },
-    {
-      "day": "2026-10-09",
-      "commits": 0
-    },
-    {
-      "day": "2026-10-10",
-      "commits": 0
-    },
     {
       "day": "2026-10-11",
       "commits": 0
@@ -157,15 +145,27 @@
     },
     {
       "day": "2026-11-06",
-      "commits": 9
+      "commits": 10
+    },
+    {
+      "day": "2026-11-07",
+      "commits": 0
+    },
+    {
+      "day": "2026-11-08",
+      "commits": 0
+    },
+    {
+      "day": "2026-11-09",
+      "commits": 0
     }
   ],
   "publicEvents": {
     "counts": {
-      "CreateEvent": 1,
-      "PushEvent": 1
+      "PushEvent": 5,
+      "CreateEvent": 1
     },
-    "observed": 2,
+    "observed": 6,
     "feedLimit": 300,
     "feedLimitReached": false,
     "maxApiLatencyHours": 6
@@ -173,9 +173,15 @@
   "sources": [
     "https://api.github.com/users/b9911/repos?type=owner&sort=full_name&per_page=100&page=1",
     "https://api.github.com/repos/b9911/b9911/languages",
-    "https://api.github.com/repos/b9911/b9911/commits?sha=main&since=2026-10-08T00:00:00.000Z&until=2026-11-06T15:44:35.931Z&per_page=100&page=1",
+    "https://api.github.com/repos/b9911/b9911/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T13:54:44.300Z&per_page=100&page=1",
     "https://api.github.com/repos/b9911/csv-workbench/languages",
-    "https://api.github.com/repos/b9911/csv-workbench/commits?sha=main&since=2026-10-08T00:00:00.000Z&until=2026-11-06T15:44:35.931Z&per_page=100&page=1",
+    "https://api.github.com/repos/b9911/csv-workbench/commits?sha=main&since=2026-10-11T00:00:00.000Z&until=2026-11-09T13:54:44.300Z&per_page=100&page=1",
     "https://api.github.com/users/b9911/events/public?per_page=100&page=1"
-  ]
+  ],
+  "automation": {
+    "kind": "daily-statistics-snapshot",
+    "author": "b9911",
+    "committer": "github-actions[bot]",
+    "note": "Repository history includes automated statistics updates; this is not personal contribution scoring."
+  }
 }
